@@ -43,7 +43,7 @@ const Login = (props) => {
           <form onSubmit={submitHandler}>
             {/* first name */}
             <div className="flex flex-row">
-              <div className="w-1/2 mr-1">
+              <div className=" w-full mr-1">
                 <label htmlFor="email">Your Email</label>
                 <input
                   className="h-8 w-full rounded-md border-slate-300 text-sm pl-2 bg-transparent outline-blue-600 shadow-sm"
