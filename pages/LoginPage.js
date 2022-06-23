@@ -1,4 +1,4 @@
-import Login from "../components/Login";
+import Login from "./components/Login";
 import axios from "axios";
 import { Router, useRouter } from "next/router";
 

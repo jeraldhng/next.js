@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import AddBookData from "../book/addBookData";
+import AddBookData from "../book/AddBookData";
 
 import AddAuthorData from "../author/AddAuthorData";
 const Panel = (props) => {

@@ -1,6 +1,6 @@
-import { useRouter } from "next/router";
+
 import { Fragment, useEffect, useState } from "react";
-import Layout from "../UI/layout";
+import Layout from "../UI/Layout";
 
 import axios from "axios";
 import AuthorEdit from "./AuthorEdit";

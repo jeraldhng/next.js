@@ -1,7 +1,7 @@
 
 import Sidebar from "../components/UI/Sidebar";
 
-import Layout from "../components/UI/layout";
+import Layout from "../components/UI/Layout";
 import { Fragment,useEffect } from "react";
 import { useRouter } from "next/router";
 
