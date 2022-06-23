@@ -2,7 +2,7 @@ import { useState } from "react";
 import Dropdown from "./Dropdown";
 
 
-function layout(props) {
+function Layout(props) {
 const [name,setName] = useState('')
 
 
@@ -23,4 +23,4 @@ const [name,setName] = useState('')
     );
   }
   
-  export default layout;
+  export default Layout;

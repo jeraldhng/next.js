@@ -1,10 +1,10 @@
-import LoginPage from "../components/login";
+import LoginPage from "../components/Login";
 import Sidebar from "../components/UI/sidebar";
 import axios from "axios";
 import { Router, useRouter } from "next/router";
 import BookListpage from "./BookListpage";
 import { useEffect } from "react";
-function login() {
+function LoginPage() {
   const pageRouter = useRouter();
   const setToken = (token, name) => {
     localStorage.setItem("token", token);
@@ -68,4 +68,4 @@ function login() {
   );
 }
 
-export default login;
+export default LoginPage;

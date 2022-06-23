@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useRef } from "react";
 import { Fragment } from "react";
 
-const register = (props) => {
+const Register = (props) => {
   const emailInputRef = useRef();
   const passwordInputRef = useRef();
   const nameInputRef = useRef();
@@ -77,4 +77,4 @@ const register = (props) => {
   );
 };
 
-export default register;
+export default Register;

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useRef } from "react";
 import { Fragment } from "react";
 
-const login = (props) => {
+const Login = (props) => {
 
   
 
@@ -81,4 +81,4 @@ const login = (props) => {
   );
 };
 
-export default login;
+export default Login;

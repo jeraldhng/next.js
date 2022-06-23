@@ -20,7 +20,7 @@ const AuthorDetailEdit = () => {
     if (getToken == null) {
       router.push("/LoginPage");
     }
-  }, []);
+  }, [router]);
 
   // console.log(token,"tokentoken")
 
@@ -62,7 +62,7 @@ const AuthorDetailEdit = () => {
 
   useEffect(() => {
     fetchdata();
-  }, [AuthorId]);
+  }, [AuthorId,fetchdata]);
 
   // console.log(getAuthorData,"[getAuthorData]")
 
