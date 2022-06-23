@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRef } from "react";
 import { Fragment } from "react";
-import Register from "./components/Register";
+
 
 const Register = (props) => {
   const emailInputRef = useRef();

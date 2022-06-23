@@ -4,6 +4,7 @@ import AddBookData from "../book/AddBookData";
 
 import AddAuthorData from "../author/AddAuthorData";
 const Panel = (props) => {
+  
 
   // console.log(props,'props_panel')
 

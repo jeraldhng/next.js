@@ -1,7 +1,7 @@
 import { Fragment, useRef } from "react";
-import Register from "../components/Register";
-import axios from "axios";
 
+import axios from "axios";
+import Register from "../components/Register";
 import { Router, useRouter } from "next/router";
 
 
