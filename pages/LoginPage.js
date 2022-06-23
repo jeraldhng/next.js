@@ -1,4 +1,4 @@
-import LoginPage from "../components/Login";
+import Login from "../components/Login";
 import Sidebar from "../components/UI/sidebar";
 import axios from "axios";
 import { Router, useRouter } from "next/router";
@@ -62,7 +62,7 @@ function LoginPage() {
 
   return (
     <div>
-      <LoginPage onLogin={loginHandler}></LoginPage>
+      <Login onLogin={loginHandler}></Login>
       {/* {   getToken &&<BookListpage onLogin={loginHandler}></BookListpage>} */}
     </div>
   );
