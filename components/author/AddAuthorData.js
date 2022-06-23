@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import Modal from "../UI/modal";
+import Modal from "../UI/Modal";
 
 // https://heroicons.com/
 const AddAuthorData = (props) => {

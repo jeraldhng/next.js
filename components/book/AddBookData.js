@@ -1,5 +1,5 @@
 import { Fragment, useEffect } from "react";
-import Modal from "../UI/modal";
+import Modal from "../UI/Modal";
 import { useRef } from "react";
 import { useState } from "react";
 import axios from "axios";

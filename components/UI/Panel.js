@@ -1,10 +1,7 @@
-import react from "react";
-import ReadBookList from "../book/ReadBookList";
-import Modal from "./modal";
+
 import { useState } from "react";
 import AddBookData from "../book/addBookData";
-import AuthorPage from "../../pages/AuthorPage";
-import useModal from "../Hook/use-Modal";
+
 import AddAuthorData from "../author/AddAuthorData";
 const Panel = (props) => {
 

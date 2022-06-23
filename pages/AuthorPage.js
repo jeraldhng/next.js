@@ -1,10 +1,8 @@
-import Sidebar from "../components/UI/sidebar";
-import Layout from "../components/UI/layout";
+import Sidebar from "../components/UI/Sidebar";
+import Layout from "../components/UI/Layout";
 import { Fragment } from "react";
 import axios from "axios";
-import Panel from "../components/UI/Panel";
-import Modal from "../components/UI/modal";
-import AuthorList from "../components/author/AuthorList";
+
 import { useRouter } from "next/router";
 import Router from 'next/router'
 import { useEffect, useState } from "react";

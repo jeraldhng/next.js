@@ -1,4 +1,4 @@
-import Button from "./button";
+
 const Modal = (props) => {
   return (
     <div className="flex justify-center items-center bg-black bg-opacity-50 absolute inset-0 ">

@@ -1,11 +1,9 @@
 import { Fragment, useRef } from "react";
-import { getServerSideProps } from ".";
 import Register from "../components/Register";
 import axios from "axios";
-import { useState } from "react";
-import { getStaticProps } from "./AuthorPage";
+
 import { Router, useRouter } from "next/router";
-import BookListpage from "./BookListpage";
+
 
 function RegisterPage() {
   const pageRouter = useRouter();

@@ -1,4 +1,4 @@
-import react from "react";
+
 import Panel from "./Panel";
 import Link from "next/link";
 import { useState } from "react";

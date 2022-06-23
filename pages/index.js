@@ -1,7 +1,5 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import Sidebar from "../components/UI/sidebar";
+
+import Sidebar from "../components/UI/Sidebar";
 
 import Layout from "../components/UI/layout";
 import { Fragment,useEffect } from "react";

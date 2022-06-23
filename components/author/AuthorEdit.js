@@ -1,4 +1,4 @@
-import Modal from "../UI/modal";
+import Modal from "../UI/Modal";
 import { useRef } from "react";
 const AuthorEdit = (props) => {
     const authorNameRef = useRef("");
